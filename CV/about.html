@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="cv.css" > -->
+    <title>Experience</title>
+</head>
+<body>
+    <div>
+        <h2 class="title">My Experiences!</h2>
+    </div>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="Interests.html">About Me</a></li>
+        <li><a class="active"  href="about.html">Experience</a></li>
+        <li style="float: right;"><a href="extras.html">Portfolio</a></li>
+    </ul>
+
+    <!-- <h2 class="title">CV</h2> -->
+
+    <main>
+        <section>
+            <h2 class="title">Jobb</h2>
+            <ul class="test" id="employmentList"></ul>
+        </section>
+
+        <section>
+            <h2 class="title">Utbildning</h2>
+            <ul class="test" id="educationList"></ul>
+        </section>
+
+        <section>
+            <h2 class="title">Praktik</h2>
+            <ul class="test" id="internshipsList"></ul>
+        </section>
+        <br>
+        <br>
+        <br>
+        <br>
+        <section>
+            <h2>Vad är klockan och vädret just nu?</h2>
+            <p>Ja... jag vet att detta är konsigt att lägga in, MEN! En av sakerna ni krävde var att man ska visa att man kan göra en interaktiv javascript, så här är den :) Jag kommer göra detta finare när jag kommer ha extra tid för den för jag kommer nog fortsätta att uppdatera denna sida i framtiden.</p>
+            <button type="button" onClick="document.getElementById('demo').innerHTML = Date()" >
+                Klicka mig för att ta reda på tiden och vädret!
+            </button>
+            <p id="demo"></p>
+        </section>
+    </main>
+    
+</body>
+</html>
+
+
+
+
+
+
+<script type="module" src="index.js"></script>

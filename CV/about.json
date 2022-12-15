@@ -1,0 +1,22 @@
+{
+    "employment": [
+        {
+            "time": "20?? - 20??",
+            "jobTitle": "Mataffärs PRAO Anställd, ",
+            "location": "Rönninge",
+            "text": "Detta är bara början! TRO MIG!"
+        }
+    ],
+    "education": [
+        "2008 - 2017: Grundskola åk 1-9, Rönninge Skola.",
+        "2017 - 2020: Teknikprogrammet, Tumba Gymnasium.",
+        "2018 - 2020: Design och Produktutveckling inkl. Data och IT, Tumba Gymnasiet."
+
+       
+    ],
+    "internships": [
+        {
+            "text": "Jag har inget unikt ännu, förutom PRAO på en mataffär... Men vänta bara! "
+        }
+    ]
+}

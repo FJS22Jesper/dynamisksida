@@ -1,0 +1,177 @@
+body {
+    background-color: rgb(196, 195, 195);
+}
+
+.test {
+    background-color: rgb(196, 195, 195);
+}
+
+p {
+    font-family: 'Playfair Display', serif;
+}
+h2 {
+    font-family: 'Playfair Display', serif;
+}
+a {
+    font-family: 'Playfair Display', serif;
+}
+
+
+.container {
+    position: relative;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.jesper {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+.container:hover .jesper {
+    opacity: 0.3;
+}
+.container:hover .middle {
+    opacity: 1;
+}
+.text {
+    background-color: #3a3b3c;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+}
+.button {
+    color: white;
+    text-decoration: none;
+}
+
+
+
+
+
+
+ul {
+    list-style-type: none;
+    font-size: 28px;
+
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #f3f3f3;
+    top: 0%;
+    border-radius: 25px 0px; /* För Nav-barens hörnor */
+
+    position: -webkit-sticky; /* För Safari Sidor */
+    position: sticky;
+}
+li {
+    float: left;
+}
+li a {
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover:not(.active) {
+    background-color: #ddd;
+}
+li a.active {
+    background-color: #3a3b3c;
+    color: white;
+}
+
+
+
+.JesperH {
+    color: white;
+    text-shadow: 2px 2px 4px black;
+    font-size: 22px
+}
+
+.title {
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 4px #000;
+}
+.smalltitle {
+    font-size: 24px;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 2px #000;
+}
+.introduction {
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 2px #000;
+}
+
+.info1 {
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 2px #000;
+}
+
+.info2 {
+    font-size: 24px;
+    color: white;
+    text-shadow: 2px 2px 2px #000;
+
+}
+.info3 {
+    font-size: 18px;
+    color: white;
+    text-shadow: 2px 2px 2px #000;
+}
+
+
+
+.visvik {
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 4px #000;
+}
+
+.cd {
+    display: block;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cover {
+    display: block;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.info5 {
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 2px #000;
+}
+
+.visvik1 {
+    display: block;
+    text-align: center;
+}
