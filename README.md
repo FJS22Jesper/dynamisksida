@@ -2,6 +2,4 @@
 
 Inlämningsuppgift 2. 
 
-
-
-testestest
+Förhoppningvis är detta du önskade.
